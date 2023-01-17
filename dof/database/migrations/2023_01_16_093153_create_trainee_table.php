@@ -16,17 +16,14 @@ return new class extends Migration
         Schema::create('trainee', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->date('dob');
+            $table->integer('age');
             $table->string('gender');
-            $table->string('nid');
-            $table->string('phone');
-            $table->string('email');
-            $table->string('division');
-            $table->string('district');
-            $table->string('upazila');
-            $table->string('street');
-            $table->string('nationality');
-            $table->string('job_designation');
+            $table->string('religion');
+            $table->integer('phone');
+            $table->integer('nid');
+            $table->string('address');
+            $table->integer('upazila_id');
+            $table->string('profession');
         });
     }
 
