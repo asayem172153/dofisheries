@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('contact_info');
             $table->string('address');
             $table->integer('upazila_id');
-            $table->integer('facility');
+            $table->integer('facility_id');
         });
     }
 

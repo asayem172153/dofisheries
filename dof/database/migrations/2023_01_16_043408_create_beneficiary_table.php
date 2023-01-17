@@ -19,13 +19,13 @@ return new class extends Migration
             $table->integer('age');
             $table->string('gender');
             $table->string('religion');
-            $table->integer('phone');
+            $table->string('phone');
             $table->integer('nid');
             $table->string('address');
             $table->integer('upazila_id');
             $table->string('education');
             $table->string('profession');
-            $table->date('beneficiary_type');
+            $table->string('beneficiary_type');
         });
     }
 

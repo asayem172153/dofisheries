@@ -22,9 +22,8 @@ return new class extends Migration
             $table->integer('batch');
             $table->integer('number_of_trainee');
             $table->integer('upazila_id');
-            $table->string('trainee_id');
             $table->integer('duration');
-            $table->integer('per_hour');
+            $table->integer('per_day_hour');
             $table->integer('total_hour');
             $table->integer('trainer_id');
             $table->integer('cost_bdt');

@@ -18,6 +18,7 @@ return new class extends Migration
             $table->integer('upazila_id');
             $table->integer('fund_amount');
             $table->string('fund_type');
+            $table->date('date');
         });
     }
 
