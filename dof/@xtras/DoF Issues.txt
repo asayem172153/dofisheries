@@ -1,0 +1,9 @@
+1. Category & area wise demand assesment, Areawise demand analysis [Merge 2 bar chart].
+2. Only in Officer training (Trainer will be rated). [No need in steakholder or beneficiary].
+3. Fund (Project, Revenue, Others).
+4. Area (HeadQuater+Field level(Division + District + Upazila)).
+5. Integration DoF database with their e-Training portal.
+6. Departmental Training, ToT recived etc.
+7. Keyword based search.
+8. Top/initial Filter (Revenue Budget, Development Budget).
+9. Common Platform for Data entry/input. 

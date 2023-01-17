@@ -1,0 +1,16 @@
+
+
+facility==['Facility-1','Facility-2','Facility-3','Facility-4','Facility-5','Facility-6','Facility-7','Facility-8','Facility-9','Facility-10']
+
+trainee_type=['Officer','Other']
+
+trainee=>job designation==>['Officer','Staff','Fisherman','Pion','Driver','HR','Clerk','Auditor','Scientist','StakeHolder']
+
+fund=['Project','Training','Development','Training','Audit','Training']
+
+designation=['Departmental Trainer','Faculty','Subjective Expert','Trainer-001','Trainer-007']
+
+organaization=['Planing','Fisheries','Shipping','Water','BRAC','BURO','Shakti','Proshika']
+
+fisheries=['Industrial','Small_Scale','Commercial','Traditional']
+
