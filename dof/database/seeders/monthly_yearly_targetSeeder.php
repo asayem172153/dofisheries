@@ -16,7 +16,7 @@ class monthly_yearly_targetSeeder extends Seeder
     public function run()
     {
         $faker=Faker::create();
-        foreach(range(1,29) as $value){
+        foreach(range(1,100) as $value){
             DB:: table('monthly_yearly_target') ->insert([
                 'id'=>$value,
                 'date_time'=>$faker->dateTimeBetween('2011-01-01','2022-10-30'),
