@@ -17,12 +17,12 @@ class fundSeeder extends Seeder
     public function run()
     {
         $faker=Faker::create();
-        foreach(range(1,120) as $value){
+        foreach(range(1,1000) as $value){
             DB:: table('fund') ->insert([
                 'id'=>$value,
                 'upazila_id'=>$faker->numberBetween(1,491),
                 'fund_amount'=>$faker->numberBetween(80000,130000000),
-                'fund_type'=>$faker->randomElement(['Project','Training','Development','Training','Audit','Training']),
+                'fund_type'=>'training',
                 'date'=>$faker->dateTimeBetween('2011-01-01','2022-12-30'),
 
             ]);
